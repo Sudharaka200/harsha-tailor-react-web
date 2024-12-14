@@ -7,7 +7,13 @@ import CardImg5 from "../../Images/card-img5.jpg"
 import CardImg6 from "../../Images/card-img6.jpg"
 import CardImg7 from "../../Images/card-img7.jpg"
 import HomeBanner from "../../Components/HomeBanner/HomeBanner"
- 
+import Icon1 from "../../Images/icon1.png"
+import Icon2 from "../../Images/icon2.png"
+import Icon3 from "../../Images/icon3.png"
+import Icon4 from "../../Images/icon4.png" 
+import SampleGallery from "../../Components/SampleGallery/SampleGallery"
+import Footer from "../../Components/Footer/Footer"
+
 function home() {
   return (
     <div>
@@ -106,21 +112,126 @@ function home() {
           </div>
         </div>
       </div>
-      <div //area 3
+      <div className="bg-slate-100	" //area 3 
       >
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Trusted by eCommerce Businesses</h2>
+            <p className="mt-4 text-gray-500 sm:text-xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
+              provident impedit esse recusandae facere libero harum sequi.
+            </p>
+          </div>
 
+          <dl className="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+              <dt className="order-last text-lg font-medium text-gray-500">Total Sales</dt>
+
+              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
+            </div>
+
+            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+              <dt className="order-last text-lg font-medium text-gray-500">Official Addons</dt>
+
+              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
+            </div>
+
+            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+              <dt className="order-last text-lg font-medium text-gray-500">Total Addons</dt>
+
+              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
+            </div>
+
+            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
+              <dt className="order-last text-lg font-medium text-gray-500">Downloads</dt>
+
+              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">86k</dd>
+            </div>
+          </dl>
+        </div>  
+      </div> <br />
+      <div className="container mx-auto" //area4
+      >
+        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Explore Our Services</h2>
+        <br />
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
+          <div className="h-32 rounded-lg ">
+            <a href="#" className="group block">
+              <img
+                src={Icon1}
+                alt=""
+                className="aspect-square w-20 m-auto rounded object-cover"
+              />
+
+              <div className="mt-3">
+                <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
+                  Simple Watch
+                </h3>
+
+                <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
+              </div>
+            </a>
+          </div>
+          <div className="h-32 rounded-lg ">
+            <a href="#" className="group block">
+                <img
+                  src={Icon2}
+                  alt=""
+                  className="aspect-square w-20 m-auto rounded object-cover"
+                />
+
+                <div className="mt-3">
+                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
+                    Simple Watch
+                  </h3>
+
+                  <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
+                </div>
+              </a>
+          </div>
+          <div className="h-32 rounded-lg ">
+            <a href="#" className="group block">
+                <img
+                  src={Icon3}
+                  alt=""
+                  className="aspect-square w-20 m-auto rounded object-cover"
+                />
+
+                <div className="mt-3">
+                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
+                    Simple Watch
+                  </h3>
+
+                  <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
+                </div>
+              </a>
+          </div>
+          <div className="h-32 rounded-lg ">
+            <a href="#" className="group block">
+                <img
+                  src={Icon4}
+                  alt=""
+                  className="aspect-square w-20 m-auto rounded object-cover"
+                />
+
+                <div className="mt-3">
+                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
+                    Simple Watch
+                  </h3>
+
+                  <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
+                </div>
+              </a>
+          </div>
+        </div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
+      <br /><br />
+      <div //area 5
+      >
+        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Gallery of Sample Designs</h2>
+        <SampleGallery />
+      </div>
+      <Footer />
     </div>
   )
 }

@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
+    <div className="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-gray-900/95 sm:to-gray-900/25 sm:bg-gradient-to-r">
       <header className="absolute inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
@@ -41,7 +41,7 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white	">
                 {item.name}
               </a>
             ))}
