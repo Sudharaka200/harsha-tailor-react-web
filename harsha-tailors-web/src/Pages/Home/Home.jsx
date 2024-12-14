@@ -1,20 +1,18 @@
 import Navbar from "../../Components/Navbar/Navbar"
-import BackgroundImg1 from "../../Images/Carosal2.png"
-
+import CardImg1 from "../../Images/card-img1.jpg"
+import CardImg2 from "../../Images/card-img2.jpg"
+import CardImg3 from "../../Images/card-img3.jpg"
+import CardImg4 from "../../Images/card-img4.jpg"
+import CardImg5 from "../../Images/card-img5.jpg"
+import CardImg6 from "../../Images/card-img6.jpg"
+import CardImg7 from "../../Images/card-img7.jpg"
+import HomeBanner from "../../Components/HomeBanner/HomeBanner"
+ 
 function home() {
   return (
     <div>
         <Navbar />
-        <div //Background Image and text area 1
-        >
-          <img src={BackgroundImg1} className="w-full	" alt="" />
-          <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/50">
-              <h3 className="text-lg font-bold">Harsha Tailers</h3>
-              <h1 className="text-4xl font-extrabold">Best & Experienced Tailors</h1>
-              <p className="text-base mt-2">We have clevered expirinced tailers <br />
-              in suit design</p>
-          </div>
-        </div>
+        <HomeBanner />
         <div className="relative overflow-hidden bg-white" //area 2 
         >
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
@@ -24,7 +22,9 @@ function home() {
               A warm welcome for Harsha Tailors!
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-              With 30+ years of expertise, we craft high-quality tailored clothing, from uniforms to festive wear, serving diverse needs. Our skilled team ensures modern designs, exceptional quality, and even dress hire services, delivering over 5 million garments to date.
+              With over 30 years of experience, we specialize in high-quality, custom-tailored clothing designed to perfectly match your shape, measurements, and style preferences. Our expertise extends to a wide range of designs, including uniforms for schools, industries, and defense, as well as festive and special occasion wear. We pride ourselves on offering personalized design recommendations tailored to occasions and modern trends, ensuring exceptional quality through our skilled and experienced staff.
+                <br /><br />
+              Over the years, we have crafted more than 5 million garments, ranging from casual to formal wear, including trousers, shirts, party and wedding attire, and various uniforms. In addition to custom tailoring, we also provide dress hire services and ready-made garments with premium finishing, catering to diverse customer needs.
               </p>
             </div>
             <div>
@@ -40,37 +40,14 @@ function home() {
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                           <img
                             alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
+                            src={CardImg1}
                             className="size-full object-cover"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                            className="size-full object-cover"
-                          />
-                        </div>
-                      </div>
-                      <div className="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                            className="size-full object-cover"
-                          />
-                        </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                            className="size-full object-cover"
-                          />
-                        </div>
-                        <div className="h-64 w-44 overflow-hidden rounded-lg">
-                          <img
-                            alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
+                            src={CardImg6}
                             className="size-full object-cover"
                           />
                         </div>
@@ -79,14 +56,37 @@ function home() {
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
+                            src={CardImg3}
                             className="size-full object-cover"
                           />
                         </div>
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             alt=""
-                            src="https://tailwindui.com/plus/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
+                            src={CardImg4}
+                            className="size-full object-cover"
+                          />
+                        </div>
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            alt=""
+                            src={CardImg5}
+                            className="size-full object-cover"
+                          />
+                        </div>
+                      </div>
+                      <div className="grid shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            alt=""
+                            src={CardImg2}
+                            className="size-full object-cover"
+                          />
+                        </div>
+                        <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <img
+                            alt=""
+                            src={CardImg7}
                             className="size-full object-cover"
                           />
                         </div>
