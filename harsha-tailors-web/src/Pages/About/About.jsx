@@ -1,6 +1,9 @@
 import Navbar from '../../Components/Navbar/Navbar'
 import AboutBackgroundImg from '../../Images/About_img.png'
 import ContentImg1 from '../../Images/about-content-img1.png'
+import Contentimg2 from '../../Images/about-content1-img2.png'
+import ContentImg3 from '../../Images/about-content1-img3.png'
+import Footer from '../../Components/Footer/Footer'
 
 function About() {
   return (
@@ -54,7 +57,7 @@ function About() {
               {/* Text Content */}
               <div className="relative overflow-hidden rounded-lg">
                 <img
-                  src={ContentImg1} // Replace with the desired image URL or variable
+                  src={Contentimg2} // Replace with the desired image URL or variable
                   alt="Harsha Tailors Showcase"
                   className="w-full h-full object-cover"
                 />
@@ -71,8 +74,11 @@ function About() {
           </div>
         </div>
       </div>
-
-
+      <div //full image
+      >
+        <img src={ContentImg3} alt=""  className='w-full h-1/4	'/>
+      </div>
+      <Footer />
     </div>
   )
 }
