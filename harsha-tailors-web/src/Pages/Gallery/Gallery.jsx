@@ -1,11 +1,12 @@
 import Navbar from "../../Components/Navbar/Navbar"
-import GalleryBackgroundImg from '../../Images/gallery_Backimg.jpg'
+// import GalleryBackgroundImg from '../../Images/gallery_Backimg.jpg'
+import ImageGallery2 from '../../Components/ImagesGallery/ImagesGallery'
 
 function Gallery() {
   return (
     <div>
       <Navbar />
-      <section   //Area 1 Image
+      {/* <section   //Area 1 Image
         className="relative bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${GalleryBackgroundImg})`, height: '40%' }}
         >
@@ -17,7 +18,8 @@ function Gallery() {
               </h1>
             </div>
           </div>
-      </section>
+      </section> */}
+      <ImageGallery2 />
     </div>
   )
 }
