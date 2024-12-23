@@ -5,11 +5,11 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Logo from "../../Images/logo-light.png"
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Services', href: '#' },
-  { name: 'Gallery', href: '#' },
-  { name: 'Contact', href: '#' }
+  { name: 'Home', href: '/home' },
+  { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
+  { name: 'Gallery', href: '/gallery' },
+  { name: 'Contact', href: '/contact' }
 ]
 
 export default function Navbar() {
