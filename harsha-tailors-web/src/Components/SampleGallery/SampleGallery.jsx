@@ -1,10 +1,20 @@
+import GalleryImg1 from '../../Images/g_img1.jpg'
+import GalleryImg2 from '../../Images/g_img2.jpg'
+import GalleryImg3 from '../../Images/g_img3.jpg'
+import GalleryImg4 from '../../Images/g_img4.jpg'
+import GalleryImg5 from '../../Images/g_img5.jpg'
+import GalleryImg6 from '../../Images/g_img6.jpg'
+import GalleryImg7 from '../../Images/g_img7.jpg'
+import GalleryImg8 from '../../Images/g_img8.jpg'
+
+ 
 const products = [
     {
       id: 1,
       name: 'Earthen Bottle',
       href: '#',
       price: '$48',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-01.jpg',
+      imageSrc: GalleryImg1,
       imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
     },
     {
@@ -12,7 +22,7 @@ const products = [
       name: 'Nomad Tumbler',
       href: '#',
       price: '$35',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-02.jpg',
+      imageSrc: GalleryImg2,
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
     {
@@ -20,7 +30,7 @@ const products = [
       name: 'Focus Paper Refill',
       href: '#',
       price: '$89',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-03.jpg',
+      imageSrc: GalleryImg3,
       imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
     },
     {
@@ -28,7 +38,39 @@ const products = [
       name: 'Machined Mechanical Pencil',
       href: '#',
       price: '$35',
-      imageSrc: 'https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-04.jpg',
+      imageSrc: GalleryImg4,
+      imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    },
+    {
+      id: 5,
+      name: 'Earthen Bottle',
+      href: '#',
+      price: '$48',
+      imageSrc: GalleryImg5,
+      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    },
+    {
+      id: 6,
+      name: 'Nomad Tumbler',
+      href: '#',
+      price: '$35',
+      imageSrc: GalleryImg7,
+      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    },
+    {
+      id: 7,
+      name: 'Focus Paper Refill',
+      href: '#',
+      price: '$89',
+      imageSrc: GalleryImg7,
+      imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    },
+    {
+      id: 8,
+      name: 'Machined Mechanical Pencil',
+      href: '#',
+      price: '$35',
+      imageSrc: GalleryImg8,
       imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
     },
     // More products...
