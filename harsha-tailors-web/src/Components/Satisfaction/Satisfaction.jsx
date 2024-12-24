@@ -27,7 +27,7 @@ function StatsSection() {
   return (
     <div
       id="stats-section"
-      className="bg-slate-100 "
+      className="bg-rose-100 "
     >
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div className="mx-auto max-w-3xl text-center mt-10">
@@ -35,11 +35,11 @@ function StatsSection() {
             Trusted by Sri Lankan Craftsmanship Enthusiasts
           </h2>
           <p className="mt-4 text-gray-500 text-base mb-10">
-          Rooted in Sri Lanka’s rich heritage of fine tailoring, we blend tradition with modern techniques to create garments that inspire. From hand-stitched suits to elegant custom designs, we craft every piece with unmatched precision and dedication.
+            Rooted in Sri Lanka’s rich heritage of fine tailoring, we blend tradition with modern techniques to create garments that inspire. From hand-stitched suits to elegant custom designs, we craft every piece with unmatched precision and dedication.
           </p>
         </div>
 
-        <dl className="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
+        <dl className="mt-6 grid grid-cols-1 gap-4 sm:mt-8  sm:grid-cols-2 lg:grid-cols-4 ">
           <StatCard
             title="Years of Expertise"
             endValue={30}
@@ -94,7 +94,7 @@ function StatCard({ title, endValue, suffix = "", visible }) {
   return (
     <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
       <dt className="order-last text-base font-medium text-gray-500">{title}</dt>
-      <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">
+      <dd className="text-4xl font-extrabold text-red-600 md:text-5xl">
         {count}
         {suffix}
       </dd>

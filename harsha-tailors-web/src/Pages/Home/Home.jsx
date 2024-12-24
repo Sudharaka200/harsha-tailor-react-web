@@ -8,12 +8,9 @@ import CardImg6 from "../../Images/card-img6.jpg"
 import CardImg7 from "../../Images/card-img7.jpg"
 import HomeBanner from "../../Components/HomeBanner/HomeBanner"
 import Satisfaction from '../../Components/Satisfaction/Satisfaction'
-import Icon1 from "../../Images/icon1.png"
-import Icon2 from "../../Images/icon2.png"
-import Icon3 from "../../Images/icon3.png"
-import Icon4 from "../../Images/icon4.png" 
 import SampleGallery from "../../Components/SampleGallery/SampleGallery"
 import Footer from "../../Components/Footer/Footer"
+import OurServicesIcons from "../../Components/OurServicesIcons/OurServicesIcons"
 
 function home() {
   return (
@@ -104,7 +101,7 @@ function home() {
 
                 <a
                   href="#"
-                  className="inline-block rounded-md border border-transparent bg-rose-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  className="inline-block rounded-md border border-transparent bg-rose-600 px-8 py-3 text-center font-medium text-white hover:bg-red-700"
                 >
                   Contact us
                 </a>
@@ -116,78 +113,13 @@ function home() {
       <div className="mt-10">
         <Satisfaction />
       </div>
-       <br />
-      <div className="container mx-auto mt-20" //area4
-      >
-        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Explore Our Services</h2>
-        <br />
-        <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
-          <div className="h-32 rounded-lg ">
-            <a href="#" className="group block">
-              <img
-                src={Icon1}
-                alt=""
-                className="aspect-square w-20 m-auto rounded object-cover"
-              />
-
-              <div className="mt-3">
-                <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                  Simple Watch
-                </h3>
-              </div>
-            </a>
-          </div>
-          <div className="h-32 rounded-lg ">
-            <a href="#" className="group block">
-                <img
-                  src={Icon2}
-                  alt=""
-                  className="aspect-square w-20 m-auto rounded object-cover"
-                />
-
-                <div className="mt-3">
-                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                    Simple Watch
-                  </h3>
-                </div>
-              </a>
-          </div>
-          <div className="h-32 rounded-lg ">
-            <a href="#" className="group block">
-                <img
-                  src={Icon3}
-                  alt=""
-                  className="aspect-square w-20 m-auto rounded object-cover"
-                />
-
-                <div className="mt-3">
-                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                    Simple Watch
-                  </h3>
-                </div>
-              </a>
-          </div>
-          <div className="h-32 rounded-lg ">
-            <a href="#" className="group block">
-                <img
-                  src={Icon4}
-                  alt=""
-                  className="aspect-square w-20 m-auto rounded object-cover"
-                />
-
-                <div className="mt-3">
-                  <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                    Simple Watch
-                  </h3>
-                </div>
-              </a>
-          </div>
-        </div>
-      </div>
       <br /><br />
+        <div className="mt-20">
+          <OurServicesIcons />
+        </div>
       <div //area 5
       >
-        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Gallery of Sample Designs</h2>
+        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center mt-20">Gallery of Sample Designs</h2>
         <SampleGallery />
       </div>
       <Footer />
