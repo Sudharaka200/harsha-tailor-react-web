@@ -20,13 +20,6 @@ function Contact() {
           </div>
       </section>
       <Form />
-
-
-
-
-
-
-
     </div>
   )
 }

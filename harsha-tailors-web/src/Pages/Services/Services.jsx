@@ -1,10 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar"
 import servicesBackgrounImg from '../../Images/services-BackImg.jpg'
 import CardImg1 from "../../Images/card-img1.jpg"
-import Icon1 from "../../Images/icon1.png"
-import Icon2 from "../../Images/icon2.png"
-import Icon3 from "../../Images/icon3.png"
-import Icon4 from "../../Images/icon4.png" 
+import OurServicesIcons from "../../Components/OurServicesIcons/OurServicesIcons"
 import Footer from "../../Components/Footer/Footer"
 
 
@@ -41,97 +38,24 @@ function Services() {
                       </div>
                       {/* Content Section */}
                       <div>
-                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                        <h1 className=" font-bold tracking-tight text-gray-900 text-3xl sm:text-5xl">
                           A warm welcome for Harsha Tailors!
                         </h1>
-                        <p className="mt-4 text-xl text-gray-500">
+                        <p className="mt-4 text-base text-gray-500">
                           With over 30 years of experience, we specialize in high-quality, custom-tailored clothing designed to perfectly match your shape, measurements, and style preferences. Our expertise extends to a wide range of designs, including uniforms for schools, industries, and defense, as well as festive and special occasion wear. We pride ourselves on offering personalized design recommendations tailored to occasions and modern trends, ensuring exceptional quality through our skilled and experienced staff.
                           <br />
                           <br />
                           Over the years, we have crafted more than 5 million garments, ranging from casual to formal wear, including trousers, shirts, party and wedding attire, and various uniforms. In addition to custom tailoring, we also provide dress hire services and ready-made garments with premium finishing, catering to diverse customer needs.
                         </p>
-                        <div className="mt-6">
-                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="container mx-auto" //area3
-              >
-                <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Explore Our Services</h2>
-                <br />
-                <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
-                  <div className="h-32 rounded-lg ">
-                    <a href="#" className="group block">
-                      <img
-                        src={Icon1}
-                        alt=""
-                        className="aspect-square w-20 m-auto rounded object-cover"
-                      />
-
-                      <div className="mt-3">
-                        <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                          Simple Watch
-                        </h3>
-
-                        <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
-                      </div>
-                    </a>
-                  </div>
-                  <div className="h-32 rounded-lg ">
-                    <a href="#" className="group block">
-                        <img
-                          src={Icon2}
-                          alt=""
-                          className="aspect-square w-20 m-auto rounded object-cover"
-                        />
-
-                        <div className="mt-3">
-                          <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                            Simple Watch
-                          </h3>
-
-                          <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
-                        </div>
-                      </a>
-                  </div>
-                  <div className="h-32 rounded-lg ">
-                    <a href="#" className="group block">
-                        <img
-                          src={Icon3}
-                          alt=""
-                          className="aspect-square w-20 m-auto rounded object-cover"
-                        />
-
-                        <div className="mt-3">
-                          <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                            Simple Watch
-                          </h3>
-
-                          <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
-                        </div>
-                      </a>
-                  </div>
-                  <div className="h-32 rounded-lg ">
-                    <a href="#" className="group block">
-                        <img
-                          src={Icon4}
-                          alt=""
-                          className="aspect-square w-20 m-auto rounded object-cover"
-                        />
-
-                        <div className="mt-3">
-                          <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
-                            Simple Watch
-                          </h3>
-
-                          <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
-                        </div>
-                      </a>
-                  </div>
-                </div>
+              <div>
+                <OurServicesIcons />
               </div>
+                
               <br /><br />
               <Footer />
     </div>

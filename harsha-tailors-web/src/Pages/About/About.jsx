@@ -32,14 +32,14 @@ function About() {
               {/* Text Content */}
               <div>
               <h2 className=" font-bold text-gray-900  text-3xl sm:text-4xl text-center mt-20">About  Harsha Tailors(PVT)Ltd</h2>
-                <p className="mt-4 text-xl text-gray-500">
+                <p className="mt-4 text-base text-gray-500">
                 It’s an honor to say that Mr.Kasthurisinghe Arachchilage Harischandra is the founder of Sri Lanka’s number one leading tailor. As a result of this unending devotion over 30 years, Harsha Tailors was created. Because of his continuous service which is full of courtesies and experience. The secret of Harsha Tailors is a creation, devotion, dedication without any hesitation.            <br />
                   <br />
                   Harsha Tailors is ever ready with your needs, that’s the Vision of Harsha Tailors. Also designing and tailoring with a fine finishing and becoming the super tailor in Asia is the supreme idea and target, of Harsha Tailors.By respecting the Sri Lanka’s identity, modern designs and styles are generated with more than one hundred thousand customers. If you want the beauty at the proper, needed times go to Harsha Tailors. Also the best place is Harsha Tailors, for your memorable wedding, any kind of festive occasions, or any kind of dresses such as for office, institutes or companies.          </p>
               </div>
 
               {/* Image Content */}
-              <div className="relative overflow-hidden rounded-lg">
+              <div className="relative overflow-hidden h-full rounded-lg">
                 <img
                   src={ContentImg1} // Replace with the desired image URL or variable
                   alt="Harsha Tailors Showcase"
@@ -66,7 +66,7 @@ function About() {
 
               {/* Image Content */}
               <div>
-                <p className="mt-4 text-xl text-gray-500">
+                <p className="mt-4 text-base text-gray-500">
                 It’s an honor to say that Mr.Kasthurisinghe Arachchilage Harischandra is the founder of Sri Lanka’s number one leading tailor. As a result of this unending devotion over 30 years, Harsha Tailors was created. Because of his continuous service which is full of courtesies and experience. The secret of Harsha Tailors is a creation, devotion, dedication without any hesitation.            <br />
                   <br />
                   Harsha Tailors is ever ready with your needs, that’s the Vision of Harsha Tailors. Also designing and tailoring with a fine finishing and becoming the super tailor in Asia is the supreme idea and target, of Harsha Tailors.By respecting the Sri Lanka’s identity, modern designs and styles are generated with more than one hundred thousand customers. If you want the beauty at the proper, needed times go to Harsha Tailors. Also the best place is Harsha Tailors, for your memorable wedding, any kind of festive occasions, or any kind of dresses such as for office, institutes or companies.          </p>
