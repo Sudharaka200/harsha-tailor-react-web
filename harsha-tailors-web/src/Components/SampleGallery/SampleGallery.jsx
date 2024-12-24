@@ -63,7 +63,7 @@ const products = [
               <a key={product.id} href={product.href} className="group">
                 <img
                   src={product.imageSrc}
-                  className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[7/8]"
+                  className="aspect-square w-full rounded-lg bg-gray-200 object-cover  xl:aspect-[7/8] relative z-0 rounded-lg transition-all duration-300 hover:scale-110"
                 />
               </a>
             ))}

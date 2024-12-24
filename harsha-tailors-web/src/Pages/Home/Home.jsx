@@ -119,7 +119,7 @@ function home() {
         </div>
       <div //area 5
       >
-        <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center mt-20">Gallery of Sample Designs</h2>
+        <h2 className=" font-bold text-gray-900  text-3xl sm:text-4xl text-center mt-20">Gallery of Sample Designs</h2>
         <SampleGallery />
       </div>
       <Footer />

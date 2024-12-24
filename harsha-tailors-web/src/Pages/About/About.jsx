@@ -31,6 +31,7 @@ function About() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               {/* Text Content */}
               <div>
+              <h2 className=" font-bold text-gray-900  text-3xl sm:text-4xl text-center mt-20">About  Harsha Tailors(PVT)Ltd</h2>
                 <p className="mt-4 text-xl text-gray-500">
                 It’s an honor to say that Mr.Kasthurisinghe Arachchilage Harischandra is the founder of Sri Lanka’s number one leading tailor. As a result of this unending devotion over 30 years, Harsha Tailors was created. Because of his continuous service which is full of courtesies and experience. The secret of Harsha Tailors is a creation, devotion, dedication without any hesitation.            <br />
                   <br />
