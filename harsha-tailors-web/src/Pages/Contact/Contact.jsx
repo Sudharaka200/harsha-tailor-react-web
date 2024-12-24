@@ -25,9 +25,19 @@ function Contact() {
             <div className=" rounded-lg bg-gray-200 lg:col-span-2">
               <GoogleMap />
             </div>
-            <div className="h-32 rounded-lg">
+            <div className="rounded-lg">
                 <div>
                   <h2 className=" font-bold text-gray-900  text-3xl sm:text-4xl mt-10">Get In Touch</h2>
+                  <p className="mt-4 text-base text-gray-500">Showroom Address :
+                    <br />599, Kadawatha 11850 </p>
+                  <br />
+                  <p className="mt-4 text-base text-gray-500">Contact Number :
+                    <br />+94 11 717 0083
+                  </p>
+                  <br />
+                  <p className="mt-4 text-base text-gray-500">Email :
+                    <br />harshatailoers@gmail.com
+                  </p>
                 </div>
             </div>
           </div>

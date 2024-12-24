@@ -1,5 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar"
 import GalleryBackgroundImg from '../../Images/gallery_Backimg.jpg'
+import ImagesGallery from "../../Components/ImagesGallery/ImagesGallery"
+import Footer from "../../Components/Footer/Footer"
 
 function Gallery() {
   return (
@@ -21,12 +23,11 @@ function Gallery() {
       <br /><br />
       <div // Area 2 images and categories 
       >
-    
-
+        <div className="container mx-auto px-4 py-8">
+          <ImagesGallery />
+        </div>
       </div>
-
-
-      
+      <Footer />
     </div>
   )
 }
