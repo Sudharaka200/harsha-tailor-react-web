@@ -7,6 +7,7 @@ import CardImg5 from "../../Images/card-img5.jpg"
 import CardImg6 from "../../Images/card-img6.jpg"
 import CardImg7 from "../../Images/card-img7.jpg"
 import HomeBanner from "../../Components/HomeBanner/HomeBanner"
+import Satisfaction from '../../Components/Satisfaction/Satisfaction'
 import Icon1 from "../../Images/icon1.png"
 import Icon2 from "../../Images/icon2.png"
 import Icon3 from "../../Images/icon3.png"
@@ -24,10 +25,10 @@ function home() {
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-gray-900">
               A warm welcome for Harsha Tailors!
               </h1>
-              <p className="mt-4 text-xl text-gray-500">
+              <p className="mt-4 text-base text-gray-500">
               With over 30 years of experience, we specialize in high-quality, custom-tailored clothing designed to perfectly match your shape, measurements, and style preferences. Our expertise extends to a wide range of designs, including uniforms for schools, industries, and defense, as well as festive and special occasion wear. We pride ourselves on offering personalized design recommendations tailored to occasions and modern trends, ensuring exceptional quality through our skilled and experienced staff.
                 <br /><br />
               Over the years, we have crafted more than 5 million garments, ranging from casual to formal wear, including trousers, shirts, party and wedding attire, and various uniforms. In addition to custom tailoring, we also provide dress hire services and ready-made garments with premium finishing, catering to diverse customer needs.
@@ -112,44 +113,10 @@ function home() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-100	" //area 3 
-      >
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
-          <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Trusted by eCommerce Businesses</h2>
-            <p className="mt-4 text-gray-500 sm:text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dolores laborum labore
-              provident impedit esse recusandae facere libero harum sequi.
-            </p>
-          </div>
-
-          <dl className="mt-6 grid grid-cols-1 gap-4 sm:mt-8 sm:grid-cols-2 lg:grid-cols-4">
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt className="order-last text-lg font-medium text-gray-500">Total Sales</dt>
-
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">$4.8m</dd>
-            </div>
-
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt className="order-last text-lg font-medium text-gray-500">Official Addons</dt>
-
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">24</dd>
-            </div>
-
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt className="order-last text-lg font-medium text-gray-500">Total Addons</dt>
-
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">86</dd>
-            </div>
-
-            <div className="flex flex-col rounded-lg border border-gray-100 px-4 py-8 text-center">
-              <dt className="order-last text-lg font-medium text-gray-500">Downloads</dt>
-
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl">86k</dd>
-            </div>
-          </dl>
-        </div>  
-      </div> <br />
+      <div>
+        <Satisfaction />
+      </div>
+       <br />
       <div className="container mx-auto" //area4
       >
         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Explore Our Services</h2>
@@ -167,8 +134,6 @@ function home() {
                 <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
                   Simple Watch
                 </h3>
-
-                <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
               </div>
             </a>
           </div>
@@ -184,8 +149,6 @@ function home() {
                   <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
                     Simple Watch
                   </h3>
-
-                  <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
                 </div>
               </a>
           </div>
@@ -201,8 +164,6 @@ function home() {
                   <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
                     Simple Watch
                   </h3>
-
-                  <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
                 </div>
               </a>
           </div>
@@ -218,8 +179,6 @@ function home() {
                   <h3 className="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 text-center	">
                     Simple Watch
                   </h3>
-
-                  <p className="mt-1 text-sm text-gray-700 text-center	">$150</p>
                 </div>
               </a>
           </div>
