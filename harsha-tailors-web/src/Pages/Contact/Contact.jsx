@@ -1,6 +1,7 @@
 import Navbar from "../../Components/Navbar/Navbar"
 import ContactBackgroundImg from '../../Images/contact_backImg.png'
 import Form from '../../Components/Form/Form'
+import Footer from "../../Components/Footer/Footer"
 
 function Contact() {
   return (
@@ -19,7 +20,15 @@ function Contact() {
             </div>
           </div>
       </section>
-      <Form />
+      <div>
+        <div className="container mx-auto px-4 py-8">
+          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+            <div className="h-32 rounded-lg bg-gray-200 lg:col-span-2"></div>
+            <div className="h-32 rounded-lg bg-gray-200"></div>
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   )
 }
