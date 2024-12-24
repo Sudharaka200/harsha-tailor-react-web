@@ -27,14 +27,14 @@ function StatsSection() {
   return (
     <div
       id="stats-section"
-      className="bg-slate-100"
+      className="bg-slate-100 "
     >
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl text-center mt-10">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
             Trusted by Sri Lankan Craftsmanship Enthusiasts
           </h2>
-          <p className="mt-4 text-gray-500 text-base">
+          <p className="mt-4 text-gray-500 text-base mb-10">
           Rooted in Sri Lanka’s rich heritage of fine tailoring, we blend tradition with modern techniques to create garments that inspire. From hand-stitched suits to elegant custom designs, we craft every piece with unmatched precision and dedication.
           </p>
         </div>

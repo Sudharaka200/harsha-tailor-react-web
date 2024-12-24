@@ -104,7 +104,7 @@ function home() {
 
                 <a
                   href="#"
-                  className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                  className="inline-block rounded-md border border-transparent bg-rose-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
                 >
                   Contact us
                 </a>
@@ -113,11 +113,11 @@ function home() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mt-10">
         <Satisfaction />
       </div>
        <br />
-      <div className="container mx-auto" //area4
+      <div className="container mx-auto mt-20" //area4
       >
         <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl text-center">Explore Our Services</h2>
         <br />
