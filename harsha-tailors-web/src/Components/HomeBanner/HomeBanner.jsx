@@ -14,7 +14,7 @@ function HomeBanner() {
                 <strong className="block font-extrabold text-rose-500"> Harsha Tailors, </strong>
             </h1>
 
-            <p className="mt-4 max-w-lg text-white text-base ">
+            <p className="mt-4 max-w-lg text-white text-base">
             Respecting Sri Lankan identity and dedicated to our customers for over 30 years, is ever ready to meet your needs, striving to become the top tailor in Asia.
             </p>
 
